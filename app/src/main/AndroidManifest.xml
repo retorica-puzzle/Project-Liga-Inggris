@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.projectuas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.asus.ligainggris.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.asus.ligainggris.LoginActivity" />
+        <activity android:name="com.example.asus.ligainggris.DetailActivity" />
+        <activity android:name="com.example.asus.ligainggris.MainActivity" />
+        <activity android:name="com.example.asus.ligainggris.MainActivityAdmin"/>
+        <activity android:name="com.example.asus.ligainggris.CrudActivity" />
+        <activity android:name="com.example.asus.ligainggris.FormAddUpdateActivity" />
+    </application>
+
+</manifest>
